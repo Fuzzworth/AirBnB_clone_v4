@@ -159,6 +159,7 @@ Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://tw
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
 David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
 Nyangasi Mhozya - [Github](https://github.com/Fuzzworth) / [Twitter](https://twitter.com/FuzzFoo)
+Tonny Mapanga - [Github](https://github.com/TonnyMpho) / [Twitter](https://twitter.com/TonnyMpho?t=G8_Nasylb_488teUN_ZsDA&s=09)
 
 Second part of Airbnb: Joann Vuong
 ## License
