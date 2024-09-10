@@ -1,10 +1,21 @@
 pipeline {
   agent any
   stages {
+    stage('Git install') {
+      steps {
+        sh 'sudo apt install git'
+      }
+    }
+
     stage('Checkout') {
       steps {
-        pwd(tmp: true)
-        git(url: 'https://github.com/MODISAR/Thuo_Letlotlo.git', branch: 'master', changelog: true, poll: true)
+        git(url: 'https://github.com/Fuzzworth/AirBnB_clone_v4.git', branch: 'master', changelog: true, poll: true)
+      }
+    }
+
+    stage('List') {
+      steps {
+        sh 'ls -la'
       }
     }
 
