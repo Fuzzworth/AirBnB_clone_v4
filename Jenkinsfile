@@ -1,5 +1,10 @@
 pipeline {
-  agent any
+  agent {
+    docker {
+      image 'jenkins/jnlp-agent-python3'
+    }
+
+  }
   stages {
     stage('Git install') {
       steps {
