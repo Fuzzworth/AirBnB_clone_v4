@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git install') {
       steps {
-        sh 'apt install git'
+        sh 'apt-get update   && apt-get install -y git && rm -rf /var/lib/apt/lists/*'
       }
     }
 
